@@ -1,0 +1,12 @@
+.messagesRoomContainer {
+    width: 100%;
+    display: flex;
+    background-color: rgb(25, 34, 27);
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.messagesContainer {
+    overflow-y: auto; 
+}

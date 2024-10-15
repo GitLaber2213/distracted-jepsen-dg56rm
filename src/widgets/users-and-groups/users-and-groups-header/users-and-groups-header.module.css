@@ -1,0 +1,12 @@
+.chatsHeader {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(22, 34, 26);
+}
+
+.chatsHeader img {
+    cursor: pointer;
+    margin: 5px 0 10px 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.scrollBar {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.scrollBar:hover::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.scrollBar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
